@@ -15,7 +15,10 @@ export default function Home() {
     setMedicineData(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/medicine/search', {
+      // const response = await axios.post('http://localhost:5000/api/medicine/search', {
+      //   name: medicineName,
+      // });
+      const response = await axios.post('https://medhelp-a6al.onrender.com/api/medicine/search', {
         name: medicineName,
       });
       setMedicineData(response.data);
