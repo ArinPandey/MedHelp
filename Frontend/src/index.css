@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* ── Lato (self-hosted) ── */
+@font-face {
+    font-family: "Lato";
+    src: url("/Fonts/Lato-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("/Fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Map 600 to Bold so font-semibold works without a separate file */
+@font-face {
+    font-family: "Lato";
+    src: url("/Fonts/Lato-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("/Fonts/Lato-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* ── Sansation (self-hosted) ── */
+@font-face {
+    font-family: "Sansation";
+    src: url("/Fonts/Sansation-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sansation";
+    src: url("/Fonts/Sansation-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sansation";
+    src: url("/Fonts/Sansation-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ── Sora (variable, self-hosted) ── */
+@font-face {
+    font-family: "Sora";
+    src: url("/Fonts/Sora-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ── Tailwind v4 theme registration ── */
+@theme {
+    --font-sansation: "Sansation", sans-serif;
+    --font-sora: "Sora", sans-serif;
+    --font-lato: "Lato", sans-serif;
+}
+
+/* ── Base styles ── */
+body {
+    font-family: "Sora", sans-serif;
+}

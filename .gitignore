@@ -1,0 +1,13 @@
+# Ignore dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Ignore environment variables and secrets
+.env
+Backend/.env
+Frontend/.env
+
+# Ignore production builds and IDE logs
+Frontend/dist/
+.DS_Store
