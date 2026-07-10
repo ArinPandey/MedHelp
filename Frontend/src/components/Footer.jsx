@@ -36,8 +36,8 @@ export default function Footer() {
           
           <div className="space-y-4">
             <div className="flex items-center space-x-2 text-xl font-bold text-white font-sansation">
-              <HeartPulse className="text-blue-500 h-7 w-7 " />
-              <span>MedHelp <span className="text-blue-500">AI</span></span>
+              <HeartPulse className="text-rose-600 h-7 w-7 " />
+              <span>MedHelp <span className="text-rose-600">AI</span></span>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
               Turning complicated medicine information into simple, clear, and easy-to-read health insights instantly.

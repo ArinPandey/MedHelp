@@ -4,19 +4,19 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div className="max-w-4xl mx-auto px-4 py-12 bg-gray-200">
       {/* Back Button */}
       <Link 
         to="/" 
         className="inline-flex items-center space-x-2 text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors mb-8 group"
       >
-        <ArrowLeft size={16} className="transform group-hover:-translate-x-1 transition-transform" />
-        <span>Back to Search</span>
+        <ArrowLeft size={16} className="transform group-hover:-translate-x-1 transition-transform text-black" />
+        <span className="text-black">Back to Search</span>
       </Link>
 
       {/* Core Description */}
       <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm mb-8">
-        <h1 className="text-3xl font-extrabold text-gray-900 mb-4 font-sora">About MedHelp AI</h1>
+        <h1 className="text-3xl font-extrabold text-gray-900 mb-4 font-sora">About <span className="text-rose-500">MedHelp AI</span></h1>
         <p className="text-gray-600 leading-relaxed text-base font-sora">
           A fast, lightweight full-stack web application that simplifies complex medical data. It uses smart AI prompts to fetch structured information instantly, ensuring a clean and reliable user experience without the need for heavy data storage.
         </p>

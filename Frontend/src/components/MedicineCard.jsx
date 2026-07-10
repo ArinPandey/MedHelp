@@ -23,7 +23,7 @@ export default function MedicineCard({ data }) {
   return (
     <div className="w-full max-w-4xl mx-auto my-6 space-y-6">
       {/* Header Banner */}
-      <div className="p-6 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl shadow-lg text-white">
+      <div className="p-6 bg-gradient-to-r from-red-700 to-rose-700 rounded-2xl shadow-lg text-white">
         <h2 className="text-3xl font-bold tracking-tight mb-1 font-sansation">
           {data.genericName}
         </h2>

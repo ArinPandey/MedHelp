@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 bg-gray-200">
       <div className="text-center max-w-2xl mx-auto mb-10">
         <h1 className="text-4xl text-gray-900 tracking-tight sm:text-5xl mb-4 font-sansation font-extrabold">
           Instant Medicine Insights
